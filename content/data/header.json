@@ -1,0 +1,135 @@
+{
+    "logo": {
+        "url": "/images/decision tree technology logo_logo_right.webp",
+        "altText": "Logo dark",
+        "styles": {
+            "self": {
+                "margin": [
+                    "mr-3"
+                ]
+            }
+        },
+        "type": "ImageBlock"
+    },
+    "primaryLinks": [
+        {
+            "label": "HOME",
+            "url": "/",
+            "icon": "arrowRight",
+            "iconPosition": "right",
+            "style": "primary",
+            "type": "Link",
+            "altText": "Decision Tree Homepage"
+        },
+        {
+            "label": "SERVICES",
+            "altText": "services",
+            "url": "/services",
+            "icon": "arrowRight",
+            "iconPosition": "right",
+            "style": "primary",
+            "type": "Link"
+        },
+        {
+            "type": "SubNav",
+            "label": "SUCCESS STORIES",
+            "altText": "SUCCESS STORIES",
+            "links": [
+                {
+                    "type": "Link",
+                    "label": "Fraud Management AI",
+                    "altText": "Fraud Management AI",
+                    "url": "Fraud%20Management%20AI%20Enhancements",
+                    "showIcon": false,
+                    "icon": "arrowRight",
+                    "iconPosition": "right",
+                    "style": "primary",
+                    "elementId": ""
+                },
+                {
+                    "type": "Link",
+                    "label": "HIPAA Compliant Patient Portal",
+                    "altText": "HIPAA Compliant Patient Portal",
+                    "url": "/HIPAA%20Compliant%20Patient%20Portal",
+                    "showIcon": false,
+                    "icon": "arrowRight",
+                    "iconPosition": "right",
+                    "style": "primary",
+                    "elementId": ""
+                },
+                {
+                    "type": "Link",
+                    "label": "HIPAA Compliant Clinical Portal",
+                    "altText": "HIPAA Compliant Clinical Portal",
+                    "url": "/HIPAA%20Compliant%20Clinical%20Portal",
+                    "showIcon": false,
+                    "icon": "arrowRight",
+                    "iconPosition": "right",
+                    "style": "primary",
+                    "elementId": ""
+                },
+                {
+                    "type": "Link",
+                    "label": "Secure Customer Portal",
+                    "altText": "Secure Customer Portal",
+                    "url": "/Secure%20Customer%20Portal",
+                    "showIcon": false,
+                    "icon": "arrowRight",
+                    "iconPosition": "right",
+                    "style": "primary",
+                    "elementId": ""
+                }
+            ],
+            "labelStyle": "primary"
+        },
+        {
+            "type": "Link",
+            "label": "STARTER KIT",
+            "altText": "Customer and Patient Portal Starter Kit ",
+            "url": "/starter-kit",
+            "showIcon": false,
+            "icon": "arrowRight",
+            "iconPosition": "right",
+            "style": "primary",
+            "elementId": ""
+        },
+        {
+            "type": "Link",
+            "altText": "Blog",
+            "url": "/blog",
+            "showIcon": false,
+            "icon": "",
+            "iconPosition": "left",
+            "style": "primary",
+            "elementId": "",
+            "label": "BLOG"
+        },
+        {
+            "type": "Link",
+            "label": "JOIN US",
+            "altText": "",
+            "url": "/careers",
+            "showIcon": false,
+            "icon": "arrowRight",
+            "iconPosition": "right",
+            "style": "primary",
+            "elementId": ""
+        }
+    ],
+    "secondaryLinks": [
+        {
+            "label": "Book A Free Call",
+            "url": "https://lp.decisiontree.tech/meetings/yulia-diamond",
+            "icon": "arrowRight",
+            "iconPosition": "right",
+            "style": "primary",
+            "type": "Button",
+            "showIcon": false,
+            "elementId": "btn-text"
+        }
+    ],
+    "variant": "logo-left-primary-nav-right",
+    "colors": "bg-light-fg-dark",
+    "type": "Header",
+    "title": "Design Build Host"
+}

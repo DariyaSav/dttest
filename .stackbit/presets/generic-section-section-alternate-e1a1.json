@@ -1,0 +1,65 @@
+{
+    "model": "GenericSection",
+    "srcType": "git",
+    "srcProjectId": "9a0364b9",
+    "presets": [
+        {
+            "label": "section-alternate",
+            "locale": null,
+            "metadata": {
+                "categories": [
+                    "later on usage"
+                ],
+                "canDelete": true
+            },
+            "data": {
+                "title": {
+                    "$$type": "TitleBlock",
+                    "text": "Microsoft.Net",
+                    "color": "text-dark",
+                    "styles": null
+                },
+                "subtitle": "",
+                "text": "Azure Cloud, Web, Mobile, Desktop solutions leveraging latest Microsoft and Open Source stack.\n",
+                "actions": [
+                    {
+                        "$$type": "Button",
+                        "label": "Learn More",
+                        "altText": null,
+                        "url": "/",
+                        "showIcon": true,
+                        "icon": "arrowRight",
+                        "iconPosition": "right",
+                        "style": "secondary",
+                        "elementId": null
+                    }
+                ],
+                "media": {
+                    "$$type": "ImageBlock",
+                    "url": {
+                        "$$ref": "stackbit_asset_id:static:public/images/Microsoft Partner (1).jpg",
+                        "$$type": "__image_model"
+                    },
+                    "altText": "Fun feature preview",
+                    "elementId": null,
+                    "styles": null
+                },
+                "badge": {
+                    "$$type": "Badge",
+                    "label": "",
+                    "color": "text-primary",
+                    "styles": null
+                },
+                "elementId": null,
+                "colors": "bg-light-fg-dark",
+                "backgroundImage": null,
+                "styles": {
+                    "self": {
+                        "alignItems": "center"
+                    }
+                }
+            },
+            "thumbnail": "images/generic-section-section-alternate-e1a1.png"
+        }
+    ]
+}

@@ -1,0 +1,175 @@
+{
+    "logo": {
+        "url": "/images/decision tree technology logo_Decisiontree_logo_full.webp",
+        "altText": "Logo light",
+        "type": "ImageBlock"
+    },
+    "text": "##### Design Build Host ABP Partner\n\n",
+    "primaryLinks": {
+        "title": "",
+        "links": [
+            {
+                "label": "HOME",
+                "altText": "Features page",
+                "url": "/",
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "style": "primary",
+                "type": "Link"
+            },
+            {
+                "label": "SERVICES",
+                "url": "/services",
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "style": "primary",
+                "type": "Link"
+            },
+            {
+                "type": "Link",
+                "label": "STARTER KIT",
+                "altText": "CUSTOMER PORTAL STARTER KIT",
+                "url": "/starter-kit/",
+                "showIcon": false,
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "style": "primary",
+                "elementId": ""
+            },
+            {
+                "label": "CASE STUDIES",
+                "url": "/case-studies",
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "style": "primary",
+                "type": "Link"
+            },
+            {
+                "type": "Link",
+                "label": "BLOG",
+                "altText": "",
+                "url": "/blog",
+                "showIcon": false,
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "style": "primary",
+                "elementId": ""
+            },
+            {
+                "type": "Link",
+                "label": "JOIN US",
+                "altText": "CARREERS",
+                "url": "/careers/",
+                "showIcon": false,
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "style": "primary",
+                "elementId": ""
+            }
+        ],
+        "type": "FooterLinksGroup"
+    },
+    "socialLinks": [
+        {
+            "altText": "Twitter link",
+            "url": "https://twitter.com/DecisiontreeT/",
+            "icon": "twitter",
+            "type": "Social"
+        },
+        {
+            "altText": "LinkedIn link",
+            "url": "https://www.linkedin.com/company/decisiontreetechology/",
+            "icon": "linkedin",
+            "type": "Social"
+        },
+        {
+            "type": "Social",
+            "altText": "Facebook link",
+            "url": "https://www.facebook.com/DecisionTreeTechnology/",
+            "icon": "facebook",
+            "elementId": ""
+        },
+        {
+            "type": "Social",
+            "altText": "Instagram link",
+            "url": "https://www.instagram.com/decisiontree.tech/",
+            "icon": "instagram",
+            "elementId": ""
+        },
+        {
+            "type": "Social",
+            "altText": "YouTube icon",
+            "url": "https://www.youtube.com/@DecisionTreeTech",
+            "icon": "youtube",
+            "elementId": ""
+        }
+    ],
+    "legalLinks": [
+        {
+            "label": "TERMS & CONDITIONS",
+            "url": "/terms-and-conditions",
+            "icon": "arrowRight",
+            "iconPosition": "right",
+            "style": "secondary",
+            "type": "Link"
+        },
+        {
+            "label": "PRIVACY POLICY",
+            "url": "/privacy-policy",
+            "icon": "arrowRight",
+            "iconPosition": "right",
+            "style": "secondary",
+            "type": "Link"
+        },
+        {
+            "type": "Link",
+            "label": "COOKIE POLICY",
+            "altText": "",
+            "url": "/cookie-policy",
+            "showIcon": false,
+            "icon": "arrowRight",
+            "iconPosition": "right",
+            "style": "secondary",
+            "elementId": ""
+        }
+    ],
+    "copyrightText": "© Decision Tree Technology LLC. All rights reserved. \n",
+    "colors": "bg-neutral-fg-dark",
+    "type": "Footer",
+    "secondaryLinks": {
+        "type": "FooterLinksGroup",
+        "title": "Delaware 19808-1674, USA",
+        "links": [
+            {
+                "type": "Link",
+                "label": "+1(647)738-8888",
+                "altText": "",
+                "url": "/",
+                "showIcon": false,
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "style": "secondary",
+                "elementId": ""
+            },
+            {
+                "type": "Link",
+                "label": "info@decisiontree.tech",
+                "altText": "",
+                "url": "mailto:info@decisiontree.tech",
+                "showIcon": false,
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "style": "secondary",
+                "elementId": ""
+            }
+        ]
+    },
+    "styles": {
+        "self": {
+            "padding": [
+                "pb-6",
+                "pt-10"
+            ]
+        }
+    }
+}

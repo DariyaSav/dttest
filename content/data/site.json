@@ -1,0 +1,31 @@
+{
+    "favicon": "/images/DecisionTree_logo_icon.svg",
+    "footer": "content/data/footer.json",
+    "titleSuffix": "Decision Tree Technology- ABP.IO Software Development Partner",
+    "defaultSocialImage": "/images/DecisionTree_logo_icon.svg",
+    "type": "Config",
+    "header": "content/data/header.json",
+    "defaultMetaTags": [
+        {
+            "type": "MetaTag",
+            "property": "og:title",
+            "content": "Decision Tree Technology- ABP.IO Software Development Partner"
+        },
+        {
+            "type": "MetaTag",
+            "property": "",
+            "content": "ABP.IO Partner - Specializing in Cloud, Web, and Mobile Software Development using Microsoft technologies, ABP.IO, ASPNetBoilerplate, and Zero Frameworks. Expertise in ASP.NET Zero best practices, consulting, and development. Comprehensive support for ASP.NET Zero, including documentation, features, source code, and more. Proficient in ABP Commercial, ABP Framework, ABP Suite, and ABP application development. Offering tutorials, micro-services, domain-driven design (DDD), multi-tenancy, SignalR, and DTO best practices. Your go-to ABP application development company."
+        },
+        {
+            "type": "MetaTag",
+            "property": "og:description",
+            "content": "ABP.IO Partner - Specializing in Cloud, Web, and Mobile Software Development using Microsoft technologies, ABP.IO, ASPNetBoilerplate, and Zero Frameworks. Expertise in ASP.NET Zero best practices, consulting, and development. Comprehensive support for ASP.NET Zero, including documentation, features, source code, and more. Proficient in ABP Commercial, ABP Framework, ABP Suite, and ABP application development. Offering tutorials, micro-services, domain-driven design (DDD), multi-tenancy, SignalR, and DTO best practices. Your go-to ABP application development company."
+        },
+        {
+            "type": "MetaTag",
+            "property": "og:image",
+            "content": "https://decisiontree.tech/images/DecisionTree_logo_icon.svg"
+        }
+    ],
+    "enableAnnotations": true
+}
