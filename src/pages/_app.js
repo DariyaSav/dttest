@@ -15,21 +15,21 @@ export const tinos = Tinos({
 })
 
  
-export default function Layout({ children }) {
-  return (
-    <html lang="en" className={tinos.className}>
-      <body>
-        {children}
-      <h1 className={inter.className}>My page</h1>
-      <h2 className={inter.className}>My page</h2>
-      <h3 className={inter.className}>My page</h3>
-      <h4 className={inter.className}>My page</h4>
-      <h5 className={inter.className}>My page</h5>
-      <h6 className={inter.className}>My page</h6>
-      </body>
-    </html>
-  )
-}
+// export default function Layout({ children }) {
+//   return (
+//     <html lang="en" className={tinos.className}>
+//       <body>
+//         {children}
+//       <h1 className={inter.className}>My page</h1>
+//       <h2 className={inter.className}>My page</h2>
+//       <h3 className={inter.className}>My page</h3>
+//       <h4 className={inter.className}>My page</h4>
+//       <h5 className={inter.className}>My page</h5>
+//       <h6 className={inter.className}>My page</h6>
+//       </body>
+//     </html>
+//   )
+// }
 
  
 
@@ -54,7 +54,27 @@ import { useEffect } from 'react';
 import { useRouter } from 'next/router';
 import ReactGA from 'react-ga4';
 
-export default function MyApp({ Component, pageProps }) {
+export default function MyApp({ Component, pageProps, children }) {
+  return (
+    <html lang="en" className={tinos.className}>
+      <body>
+        {children}
+      <h1 className={inter.className}>My page</h1>
+      <h2 className={inter.className}>My page</h2>
+      <h3 className={inter.className}>My page</h3>
+      <h4 className={inter.className}>My page</h4>
+      <h5 className={inter.className}>My page</h5>
+      <h6 className={inter.className}>My page</h6>
+      </body>
+    </html>
+  )
+ 
+
+
+
+
+
+ 
     const router = useRouter();
 
     useEffect(() => {
