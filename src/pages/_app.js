@@ -14,7 +14,7 @@ export const tinos = Tinos({
   display: 'swap',
 })
 
-import { tinos } from './fonts';
+// import { tinos } from './fonts';
  
 export default function Layout({ children }) {
   return (
@@ -25,7 +25,7 @@ export default function Layout({ children }) {
     </html>
   )
 }
-import { inter } from './fonts';
+// import { inter } from './fonts';
  
 export default function Page() {
   return (
