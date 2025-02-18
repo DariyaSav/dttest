@@ -44,7 +44,7 @@ export default function Page() {
 
 
  
-export default function MyApp({ Component, pageProps }) {
+export default function MyApp2({ Component, pageProps }) {
   return (
     <main className={`${inter.variable} font-sans`}>
       <Component {...pageProps} />
