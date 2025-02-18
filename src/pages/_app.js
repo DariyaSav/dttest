@@ -14,43 +14,35 @@ export const tinos = Tinos({
   display: 'swap',
 })
 
-// import { tinos } from './fonts';
  
 export default function Layout({ children }) {
   return (
     <html lang="en" className={tinos.className}>
       <body>
         {children}
-      </body>
-    </html>
-  )
-}
-// import { inter } from './fonts';
- 
-export default function Page() {
-  return (
-    <>
       <h1 className={inter.className}>My page</h1>
       <h2 className={inter.className}>My page</h2>
       <h3 className={inter.className}>My page</h3>
       <h4 className={inter.className}>My page</h4>
       <h5 className={inter.className}>My page</h5>
       <h6 className={inter.className}>My page</h6>
-    </>
+      </body>
+    </html>
   )
 }
 
+ 
 
 
 
  
-export default function MyApp2({ Component, pageProps }) {
-  return (
-    <main className={`${inter.variable} font-sans`}>
-      <Component {...pageProps} />
-    </main>
-  )
-}
+// export default function MyApp2({ Component, pageProps }) {
+//   return (
+//     <main className={`${inter.variable} font-sans`}>
+//       <Component {...pageProps} />
+//     </main>
+//   )
+// }
 
 
 
