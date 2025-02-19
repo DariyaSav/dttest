@@ -21,6 +21,14 @@
         @apply break-words;
         line-height: 1.2;
     } */
+html {
+  font-family: var(--font-tinos);
+}
+ 
+h1 {
+  font-family: var(--font-inter);
+}
+
 }
 
 @layer components {
