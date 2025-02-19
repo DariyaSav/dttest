@@ -56,26 +56,7 @@ import { useEffect } from 'react';
 import { useRouter } from 'next/router';
 import ReactGA from 'react-ga4';
 
-export default function MyApp({ Component, pageProps, children }) {
-  return (
-    <html lang="en" className={tinos.className}>
-      <body>
-        {children}
-      <h1 className={inter.className}></h1>
-      <h2 className={inter.className}></h2>
-      <h3 className={inter.className}></h3>
-      <h4 className={inter.className}></h4>
-      <h5 className={inter.className}></h5>
-      <h6 className={inter.className}></h6>
-      </body>
-    </html>
-  )
- 
-
-
-
-
-
+export default function MyApp({ Component, pageProps }) {
  
     const router = useRouter();
 
