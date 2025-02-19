@@ -1,22 +1,16 @@
 import '../css/main.css';
 
-// Changing fonts
 
-import { Inter, Tinos } from 'next/font/google';
+import { Inter } from 'next/font/google'
+import { Tinos } from 'next/font/google'
+import styles from '../styles/component.module.css'
  
-export const inter = Inter({
-  subsets: ['latin'],
-  weight: ['400'],
-  display: 'swap',
+const inter = Inter({
+  variable: '--font-inter',
 })
- 
-export const tinos = Tinos({
-  subsets: ['latin'],
-  weight: ['400'],
-  display: 'swap',
+const tinos = Tinos({
+  variable: '--font-tinos',
 })
-
- 
 
 
  
