@@ -43,6 +43,12 @@ export function MyApp2({ Component, pageProps }) {
     <main className={`${tinos.variable} font-sans`}>
       <Component {...pageProps} />
     </main>
+<style jsx global>{`
+        html {
+          font-family: ${tinos.style.fontFamily};
+        }
+      `}
+</style>
   )
 }
 
