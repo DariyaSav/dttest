@@ -38,13 +38,13 @@ export const tinos = Tinos({
 
 
  
-// export default function MyApp2({ Component, pageProps }) {
-//   return (
-//     <main className={`${inter.variable} font-sans`}>
-//       <Component {...pageProps} />
-//     </main>
-//   )
-// }
+export default function MyApp2({ Component, pageProps }) {
+  return (
+    <main className={`${tinos.variable} font-sans`}>
+      <Component {...pageProps} />
+    </main>
+  )
+}
 
 
 
