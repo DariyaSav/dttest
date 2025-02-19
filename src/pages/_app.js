@@ -17,40 +17,22 @@ export const tinos = Tinos({
 })
 
  
-// export default function Layout({ children }) {
+
+
+ 
+// export function MyApp2({ Component, pageProps }) {
 //   return (
-//     <html lang="en" className={tinos.className}>
-//       <body>
-//         {children}
-//       <h1 className={inter.className}></h1>
-//       <h2 className={inter.className}></h2>
-//       <h3 className={inter.className}>My page</h3>
-//       <h4 className={inter.className}>My page</h4>
-//       <h5 className={inter.className}>My page</h5>
-//       <h6 className={inter.className}>My page</h6>
-//       </body>
-//     </html>
+//     <main className={`${tinos.variable} font-sans`}>
+//       <Component {...pageProps} />
+//     </main>
+// <style jsx global>{`
+//         html {
+//           font-family: ${tinos.style.fontFamily};
+//         }
+//       `}
+// </style>
 //   )
 // }
-
- 
-
-
-
- 
-export function MyApp2({ Component, pageProps }) {
-  return (
-    <main className={`${tinos.variable} font-sans`}>
-      <Component {...pageProps} />
-    </main>
-<style jsx global>{`
-        html {
-          font-family: ${tinos.style.fontFamily};
-        }
-      `}
-</style>
-  )
-}
 
 
 
