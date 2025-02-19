@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 @layer base {
-    body {
+/*     body {
         @apply text-base;
     }
     h1,
@@ -20,7 +20,7 @@
     h6 {
         @apply break-words;
         line-height: 1.2;
-    }
+    } */
 }
 
 @layer components {
