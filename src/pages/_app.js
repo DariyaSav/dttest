@@ -7,9 +7,11 @@ import styles from '../styles/component.module.css'
  
 const inter = Inter({
   variable: '--font-inter',
+  weight: '400',
 })
 const tinos = Tinos({
   variable: '--font-tinos',
+  weight: '400',
 })
 
 
