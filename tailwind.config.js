@@ -59,7 +59,7 @@ module.exports = {
                     fontFamily: theme(`fontFamily.${themeStyle.fontBody}`)
                 },
                 'h1,h2,h3,h4,h5,h6,blockquote': {
-                    fontFamily: theme(`fontFamily.${themeStyle.fontHeadlines}`)
+                    // fontFamily: theme(`fontFamily.${themeStyle.fontHeadlines}`)
                 },
                 'h1,.h1': {
                     fontSize: theme(`fontSize.${themeStyle.h1.size}`),
