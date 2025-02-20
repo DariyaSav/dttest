@@ -7,10 +7,12 @@ import { Tinos } from 'next/font/google'
  
 const inter = Inter({
   variable: '--font-inter',
+  subsets: ['latin'], 
   weight: '400',
 })
 const tinos = Tinos({
   variable: '--font-tinos',
+  subsets: ['latin'], 
   weight: '400',
 })
 
