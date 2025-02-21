@@ -1,4 +1,24 @@
 import '../css/main.css';
+
+import { Inter } from 'next/font/google'
+import { Tinos } from 'next/font/google'
+// import styles from '../styles/component.module.css'
+ 
+const inter = Inter({
+  variable: '--font-inter',
+  subsets: ['latin'], 
+  weight: '400',
+})
+const tinos = Tinos({
+  variable: '--font-tinos',
+  subsets: ['latin'], 
+  weight: '400',
+})
+
+
+
+
+
 import { useEffect } from 'react';
 import { useRouter } from 'next/router';
 import ReactGA from 'react-ga4';
