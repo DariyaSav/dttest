@@ -22,10 +22,10 @@ module.exports = {
                 neutralAlt: themeStyle.neutralAlt,
                 primary: themeStyle.primary
             },
-            fontFamily: {
-                sans: ['Inter', 'sans-serif'],
-                serif: ['Roboto Slab', 'serif']
-            },
+            // fontFamily: {
+            //     sans: ['Inter', 'sans-serif'],
+            //     serif: ['Roboto Slab', 'serif']
+            // },
             gridTemplateColumns: {
                 16: 'repeat(16, minmax(0, 1fr))'
             },
@@ -56,10 +56,10 @@ module.exports = {
         plugin(function ({ addBase, addComponents, theme }) {
             addBase({
                 body: {
-                    fontFamily: theme(`fontFamily.${themeStyle.fontBody}`)
+                    // fontFamily: theme(`fontFamily.${themeStyle.fontBody}`)
                 },
                 'h1,h2,h3,h4,h5,h6,blockquote': {
-                    fontFamily: theme(`fontFamily.${themeStyle.fontHeadlines}`)
+                    // fontFamily: theme(`fontFamily.${themeStyle.fontHeadlines}`)
                 },
                 'h1,.h1': {
                     fontSize: theme(`fontSize.${themeStyle.h1.size}`),
